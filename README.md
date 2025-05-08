@@ -94,13 +94,6 @@ Confusion matrices are plotted for each model to visualize the distribution of t
 
 ---
 
-## Future Work
-- Explore advanced models like Random Forests or Support Vector Machines (SVM) for better generalization.
-- Perform hyperparameter tuning for k-NN and Decision Tree models.
-- Investigate feature engineering techniques to improve model performance.
-
----
-
 ## How to Run the Notebook
 1. Clone this repository.
 2. Install the required Python packages:
