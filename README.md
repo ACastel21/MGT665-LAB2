@@ -1,9 +1,5 @@
 # MGT665-LAB2
-Here’s a rewritten version of the notebook content for use in a README file:
-
----
-
-# Student Performance Classification Lab
+# Performance Classification Lab
 
 This project demonstrates the use of machine learning classification models to predict student performance based on various features. The dataset used is the **Students Performance Dataset**, which is publicly available on Kaggle.
 
@@ -16,7 +12,6 @@ The notebook builds and evaluates three classification models:
 
 The models are trained and tested on a dataset of student performance metrics, and their results are compared using classification metrics and confusion matrices.
 
----
 
 ## Dataset Details
 
@@ -38,9 +33,9 @@ The dataset contains information about students' academic performance and other 
 - **Writing Score**: The student's score in the writing test.
 
 ### Target Variable:
-- **GradeClass**: The classification of the student's overall performance (e.g., Low, Medium, High).
+**GradeClass**: The classification of the student's overall performance (e.g., Low, Medium, High).
 
----
+
 
 ## Steps in the Notebook
 
@@ -76,7 +71,7 @@ Each model's performance is evaluated using:
 ### 6. **Confusion Matrices**
 Confusion matrices are plotted for each model to visualize the distribution of true positives, false positives, true negatives, and false negatives.
 
----
+
 
 ## Summary of Model Strengths and Weaknesses
 
@@ -92,20 +87,4 @@ Confusion matrices are plotted for each model to visualize the distribution of t
 - **Strengths**: Captures complex patterns, handles both numerical and categorical data, and is interpretable.
 - **Weaknesses**: Prone to overfitting, especially with deeper trees.
 
----
-
-## How to Run the Notebook
-1. Clone this repository.
-2. Install the required Python packages:
-   ```bash
-   pip install pandas scikit-learn matplotlib seaborn kagglehub
-   ```
-3. Run the notebook in Jupyter or any compatible environment.
-
----
-
-## Acknowledgments
-- Dataset: [Students Performance Dataset on Kaggle](https://www.kaggle.com/datasets/rabieelkharoua/students-performance-dataset)
-
---- 
 
